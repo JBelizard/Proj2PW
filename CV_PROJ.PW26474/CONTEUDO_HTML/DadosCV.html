@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Login</title>
+    
+    <!--Aplicando css em html-->
+    <style>
+        body {
+           background-color: burlywood;
+        }
+
+        .box {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+     </style>
+
+</head>
+<body>
+
+    <!--Cabeçalho-->
+    <h1 style="text-align: center; font-size: 50px;">
+    Criar Curriculo - Seus Dados 
+    </h1>
+
+    <div style="text-align: center;">
+        <a href="PagInicial.html" style="color: black; 
+            font-size: 30px;">
+            Voltar à pagina Inicial
+        </a>
+
+    </div><hr><br>
+
+    <!--Formulário-->
+    <form action="" style="text-align: center; font-size: 20px;">
+        <!--(fieldset - Colocar conteudos dentro do formulário)-->
+        <fieldset>
+            <legend> Formulario - Inserir dados do curriculo</legend>
+            <br>
+            <label for="nome">Nome:</label>
+            <input type="text" placeholder="Introduza nome" required>
+            <!--(placebolder - Pôr marca de agua num campo a ser preenchido)-->
+            <!--(requered - Obriga utilizador preencher todos campos antes submissão)-->
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Introduza email" required name="email" id="email">
+            <br>
+            <br>
+            <label for="telefone">Telefone:</label>
+            <input type="number" placeholder="Introduza telefone" required name="telefone" id="telefone">
+            <br>
+            <br>
+            <label for="morada">Morada:</label>
+            <input type="text" placeholder="Introduza Morada" required name="morada" id="pass">
+            <br>
+            <br>
+            <label for="dn">Data de nascimento:</label>
+            <input type="date" name="dn" id="dn">
+            <br>
+            <br>
+            <label for="genero">Genero:</label>
+            <input type="radio" name="Genero" id="M">M:
+            <input type="radio" name="Genero" id="F">F:
+            <br>
+            <br>
+            <label for="curso">Aptidões - Microsofts Básicos:</label>
+            <!--(select - permite-nos utilizard vários opções na página)-->
+            <select name="Cursos" id="Curso">
+                <option value="Esporte">Word:</option>
+                <option value="Musica">Excel:</option>
+                <option value="Culinaria">Power Point:</option>
+            </select>
+            <br>
+            <br>
+            <label for="nome">Formação Academica:</label>
+            <textarea name="" id="" cols="158" rows="4"></textarea>
+            <br>
+            <br>
+            <label for="Mensagem">Experiência profissional:</label><br>
+            <textarea name="" id="" cols="158" rows="4"></textarea>
+            <br>
+            <br>
+            <label for="Mensagem">Sobre mim:</label><br>
+            <textarea name="" id="" cols="158" rows="4"></textarea>
+            <!-- texrarea - Põr bloco de nota, deixar mensagem)
+            cols - largura; rowse - altura;
+            -->
+            <br>
+            <br>
+            <input type="reset" value="Limpar dados">
+            <!--(Botão, limpar dados inseridos, "reset - sig rejeitar e limpar")-->
+            <input type="submit" value="Enviar dados">
+
+        </fieldset>
+    </form>
+
+
+
+
+    <br><br><br><br><br><br>
+    <!--Rodapé da pagina-->
+    <hr>
+    <!--Rodapá da página-->
+    <div style="text-align: center; 
+            background-color: black; 
+            color: white; font-size: 
+            20px;">
+            <h1>CURRICULO VITAE - PROFESSIONAL</h1>
+            Morada: xxxxxxxxxxxxxxxxx<br>
+            Email: xxxxxxxxxxxxxxxxx<br>
+            Contatos: xxxxxxxxxxxxxxxxx<br>
+            Cidade: xxxxxxxxxxxxxxxxx<br>
+            País: xxxxxxxxxxxxxxxxx<br>
+            Politica de privacidade:<br><br>
+
+            <img src="imag2.png" alt="Descrição da imagem: text-align: left;
+            Floresta seca" width="350" height="35">
+    </div>
+
+
+</body>
+</html>
+
+
+

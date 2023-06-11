@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Login</title>
+    <link rel="stylesheet" href="main.css">
+
+    <!--Aplicando css em html-->
+    <style>
+      body {
+         background-color: burlywood;
+      }
+    </style>
+
+</head>
+<body>
+    <!--Cabeçalho-->
+    <h1 style="text-align: center; font-size: 50px;">
+    Bem Vindo à página Registrar
+    </h1>
+
+    <div style="text-align: center;">
+        <a href="PagInicial.html" style="color: black; 
+            font-size: 30px;">
+            Voltar à pagina Inicial
+        </a> ------
+        <a href="PagLogin.html" style="color: black; 
+            font-size: 30px;">
+            Ir à pagina Login
+        </a>
+    </div><hr>
+
+
+    <!--Formulário-->
+    <div class="container" style="text-align: center;">
+        <div>
+            <h2 style="text-align: center;">REGISTRAR-SE</h2><br>
+        </div>
+        <div id="loginResult"></div>
+        <div id="loginForm">
+          <div class="form-group">
+            <label for="username">username:</label>
+            <input
+              type="username"
+              id="username"
+              name="username"
+              placeholder="Enter your username"
+              required
+            />
+          </div><br>
+          <div class="form-group">
+            <label for="password">Password:</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter your password"
+              required
+            />
+          </div><br>
+          <div class="form-group">
+            <button type="button" onclick="login()">Login</button>
+            <button type="button" onclick="getTodo()">Get Todo</button>
+          </div>
+        </div>
+        <div id="todoResult"></div>
+      </div>
+
+
+    <!--Rodapé da pagina-->
+    <hr>
+    <!--Rodapá da página-->
+    <div style="text-align: center; 
+            background-color: black; 
+            color: white; font-size: 
+            20px;">
+            <h1>CURRICULO VITAE - PROFESSIONAL</h1>
+            Morada: xxxxxxxxxxxxxxxxx<br>
+            Email: xxxxxxxxxxxxxxxxx<br>
+            Contatos: xxxxxxxxxxxxxxxxx<br>
+            Cidade: xxxxxxxxxxxxxxxxx<br>
+            País: xxxxxxxxxxxxxxxxx<br>
+            Politica de privacidade:<br><br>
+
+            <img src="imag2.png" alt="Descrição da imagem: text-align: left;
+            Floresta seca" width="350" height="35">
+    </div>
+
+
+</body>
+</html>
